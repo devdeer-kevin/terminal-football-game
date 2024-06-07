@@ -1,0 +1,12 @@
+{
+  "name": "terminal-football-game",
+  "version": "1.0.0",
+  "description": "Simple game where player can guess the name of a player based on the year and the trikot number.",
+  "main": "game.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Kevin Heyland",
+  "license": "ISC"
+}
