@@ -1,4 +1,4 @@
-# Terminal Football Game
+# Terminal Football Game [Germany Edition]
 
 ## Overview
 
@@ -13,7 +13,7 @@ This repository contains a terminal-based football quiz game where you have to g
    ```
 2. Install the necessary dependencies:
    ```bash
-   npm install
+   yarn
    ```
 
 ## Usage
