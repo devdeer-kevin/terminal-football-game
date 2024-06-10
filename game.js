@@ -102,7 +102,7 @@ const chat = () => {
           return;
         }
         const onSuccess = () => {
-          playerName(userNumber, selectedTeam, selectedContest);
+          playerNameSelection(userNumber, selectedTeam, selectedContest);
         };
         const onFailure = () => {
           numberSelection(selectedTeam, selectedContest);
@@ -128,7 +128,7 @@ const chat = () => {
       },
     );
   };
-  const playerName = (userNumber, selectedTeam, selectedContest) => {
+  const playerNameSelection = (userNumber, selectedTeam, selectedContest) => {
     rl.question("Wie heißt der Spieler?\n", async (message) => {
       if (message === "exit") {
         rl.close();
@@ -139,7 +139,7 @@ const chat = () => {
         chat();
       };
       const onFailure = () => {
-        playerName(userNumber, selectedTeam, selectedContest);
+        playerNameSelection(userNumber, selectedTeam, selectedContest);
       };
       if (selectedContest === "em") {
         const isCorrect = nameCheck(message, userNumber, emTeams, selectedTeam);
@@ -154,7 +154,7 @@ const chat = () => {
   contestSelection();
   teamSelection();
   numberSelection();
-  playerName();
+  playerNameSelection();
 };
 console.log(
   'Rate, welcher Spieler zu welcher Trikotnummer gehört. Gib "exit" ein, um zu beenden.',
