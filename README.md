@@ -2,7 +2,7 @@
 
 ## Overview
 
-This repository contains a terminal-based football quiz game where you have to guess the players of a selected German national team based on their jersey numbers. The game allows you to choose between European Championship (EM) and World Cup (WM) teams.
+This repository contains a small terminal-based football quiz where you have to guess the players of a selected German national team based on their jersey numbers. The game allows you to choose between European Championship (EM) and World Cup (WM) teams.
 
 ## Installation
 
